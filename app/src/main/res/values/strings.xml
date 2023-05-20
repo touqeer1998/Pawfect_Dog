@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pawfect Dog</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="let_s_do_something_together">Let\'s do\nsomething together</string>
+    <string name="meet_local_dogs_and_dogs_lovers___">Meet local dogs and dogs lovers for\nfriendship, play-dates or fun outdoor playing.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="brand_logo">brand logo</string>
+    <string name="with_google">With Google</string>
+    <string name="f">f</string>
+    <string name="or_with_email">Or with Email</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Your Password</string>
+    <string name="forgot">Forgot?</string>
+</resources>
