@@ -255,6 +255,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignIn"
         android:layout_width="0dp"
         android:layout_height="@dimen/_35sdp"
         android:layout_marginHorizontal="@dimen/_30sdp"

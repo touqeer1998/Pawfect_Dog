@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background"
+    android:theme="@style/ThemeOverlay.PawfectDog.FullscreenContainer"
+    tools:context=".HomeFragment">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="@dimen/_3sdp"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="@dimen/_10sdp"
+        app:contentInsetStart="0dp"
+        app:fabCradleRoundedCornerRadius="@dimen/_10sdp"
+        app:fabCradleVerticalOffset="@dimen/_10sdp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnvHome"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/bg_transparent"
+            app:menu="@menu/bottom_app_bar_manu" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:layout_anchorGravity="center"
+        app:layout_anchor="@id/bottomAppBar"
+        android:insetBottom="0dp"
+        android:insetTop="0dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/ic_add"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

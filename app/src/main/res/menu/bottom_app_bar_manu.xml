@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnHome"
+        android:icon="@drawable/ic_home"
+        android:title=""/>
+    <item
+        android:id="@+id/btnChat"
+        android:icon="@drawable/ic_chat"
+        android:title=""/>
+    <item
+        android:id="@+id/btnEmpty"
+        android:title=""/>
+    <item
+        android:id="@+id/btnFavorite"
+        android:icon="@drawable/ic_favorite"
+        android:title=""/>
+    <item
+        android:id="@+id/btnProfile"
+        android:icon="@drawable/ic_profile"
+        android:title=""/>
+</menu>
